@@ -56,7 +56,7 @@ int main()
         blowfish(encrypt, parsedPassword);
         //printf("%u%u\n",encrypt[0],encrypt[1]);
     }
-    printf("%u%u\n",encrypt[0],encrypt[1]);
+    printf("%x\n",32 << encrypt[0] | encrypt[1]);
     //printf("%u]n",UINT_MAX);
     return 0;
 }
